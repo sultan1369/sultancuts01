@@ -1,0 +1,160 @@
+/* Style for the gallery container */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+head{
+    display: none;
+}
+
+body{
+    background: linear-gradient(to right,white,red,rgb(0, 0, 0));
+}
+
+*{
+  padding: 5px;  
+}
+
+.forimage{
+    padding-inline: 15px;
+}
+
+/* Style for gallery items (images) */
+.gallery img {
+    width: 80%;
+    height: auto;
+    cursor: pointer;
+}
+
+/* Style for the modal (larger image) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+h1{
+    text-align: center;
+    color: rgb(5, 0, 0);
+    background: linear-gradient(to right,white,black);
+    cursor: context-menu;
+    
+}
+
+h2{
+    text-align: center;
+    color: rgb(5, 0, 0);
+    background: linear-gradient(to right,white,black);
+    cursor: context-menu;
+    
+}
+
+/* Style for the modal image */
+.modal img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style for the close button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.toclick{
+    padding-inline: 15px;
+}
+
+
+div{
+    text-align: center;
+}
+
+.contact{
+    padding: 25px;
+}
+
+button{
+    border: 2px solid rgba(248, 243, 243, 0.8);
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    background-color: black;
+    width: 150px;
+    height: 35px;
+    padding: 3px;
+    position: relative;
+    cursor: pointer;
+}
+
+.download-btn{
+    background-color: rgba(139, 0, 0, 0.508);
+}
+
+h3{
+    background-color: black;
+    color: red;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul{
+    padding: 5px;
+    margin: 0px;
+    background-color: black;
+    width: 100%;
+    cursor: pointer;
+    height: 30px;
+
+}
+
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    cursor: pointer;
+   
+
+}
+
+h4{
+    color: black;
+    text-align: center;
+    float: left;
+}
+
+marquee{
+    background-color: rgba(0, 0, 0, 0.705);
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    cursor: context-menu;
+}
+
+iframe{
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.452);
+}
